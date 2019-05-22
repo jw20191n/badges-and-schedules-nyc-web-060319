@@ -9,5 +9,5 @@ def batch_badge_creator(attendees)
 end
 
 def assign_rooms(speakers)
-  for i in 1..7
+
 end
