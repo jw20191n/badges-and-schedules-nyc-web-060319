@@ -11,5 +11,9 @@ def batch_badge_creator(attendees)
 end
 
 def assign_rooms(speakers)
-
+  rooms = []
+  i = 1
+  speakers.each do |room|
+    rooms.push() 
+  end
 end
