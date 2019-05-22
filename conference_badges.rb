@@ -10,10 +10,10 @@ def batch_badge_creator(attendees)
   return badges
 end
 
-def assign_rooms(speakers)
+def assign_rooms(attendees)
   rooms = []
   i = 1
-  speakers.each do |name|
+  attendees.each do |name|
     rooms.push("Hello, #{name}! You'll be assigned to room #{i}!") 
     i += 1
   end
@@ -25,7 +25,7 @@ def printer(attendees)
     puts name
   end
   
-  assign_rooms(speakers).each do |person|
+  assign_rooms(attendees).each do |person|
     puts person
   end
   
